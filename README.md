@@ -77,6 +77,10 @@ python main.py
 
 ## Additions:
 
+### test_ammeter.py
+- Added unittests forr 
+* Install pytest for running unit tests using pytest
+- 
 ###Improvements (across multiple files):
 
 - Replacing prints by logging to file in all files:

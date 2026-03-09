@@ -12,18 +12,6 @@ RESULTS_JSON = Path("results/all_runs.json")
 RESULTS_JSON.parent.mkdir(exist_ok=True)
 
 
-# פונקציות להרצת האמולטורים
-def run_greenlee_emulator():
-    greenlee = GreenleeAmmeter(5000)
-    greenlee.start_server()
-
-def run_entes_emulator():
-    entes = EntesAmmeter(5001)
-    entes.start_server()
-
-def run_circutor_emulator():
-    circutor = CircutorAmmeter(5002)
-    circutor.start_server()
 
 
 def main():
