@@ -1,0 +1,3 @@
+22:53:22 | INFO | client.py:62 | Sampling complete: 50 measurements, Total duration: 5.000s, Sampling frequency: 10.000Hz, Actual runtime: 5.001s
+22:53:27 | INFO | client.py:62 | Sampling complete: 50 measurements, Total duration: 5.000s, Sampling frequency: 10.000Hz, Actual runtime: 5.012s
+22:53:32 | INFO | client.py:62 | Sampling complete: 50 measurements, Total duration: 5.000s, Sampling frequency: 10.000Hz, Actual runtime: 5.010s

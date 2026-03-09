@@ -1,0 +1,51 @@
+2026-03-09 00:15:18 | Sampling start for Circutor
+00:15:18 | Measurement 1: 0.009851 A
+00:15:18 | Measurement 2: 0.024807 A
+00:15:18 | Measurement 3: 0.033636 A
+00:15:18 | Measurement 4: 0.038673 A
+00:15:18 | Measurement 5: 0.046748 A
+00:15:18 | Measurement 6: 0.023257 A
+00:15:18 | Measurement 7: 0.064147 A
+00:15:18 | Measurement 8: 0.036206 A
+00:15:18 | Measurement 9: 0.019455 A
+00:15:19 | Measurement 10: 0.019024 A
+00:15:19 | Measurement 11: 0.008570 A
+00:15:19 | Measurement 12: 0.031366 A
+00:15:19 | Measurement 13: 0.022163 A
+00:15:19 | Measurement 14: 0.033357 A
+00:15:19 | Measurement 15: 0.043964 A
+00:15:19 | Measurement 16: 0.044285 A
+00:15:19 | Measurement 17: 0.006984 A
+00:15:19 | Measurement 18: 0.014650 A
+00:15:19 | Measurement 19: 0.071803 A
+00:15:20 | Measurement 20: 0.009418 A
+00:15:20 | Measurement 21: 0.053466 A
+00:15:20 | Measurement 22: 0.008366 A
+00:15:20 | Measurement 23: 0.027001 A
+00:15:20 | Measurement 24: 0.009792 A
+00:15:20 | Measurement 25: 0.055402 A
+00:15:20 | Measurement 26: 0.020390 A
+00:15:20 | Measurement 27: 0.023062 A
+00:15:20 | Measurement 28: 0.008838 A
+00:15:21 | Measurement 29: 0.027705 A
+
+--- Sampling Summary ---
+Total measurements: 29
+Requested duration: 3.000 s
+Sampling frequency: 9.667 Hz
+Actual runtime: 3.009 s
+
+--- Statistical Analysis ---
+Mean current: 0.028841 A
+Median current: 0.024807 A
+Standard deviation: 0.017717 A
+Minimum current: 0.006984 A
+Maximum current: 0.071803 A
+
+Metadata:
+Emulator: Circutor
+Log file: results\circutor\20260309_001518_circutor.log
+Start time: 2026-03-09 00:15:18
+End time: 2026-03-09 00:15:21
+==================================================
+

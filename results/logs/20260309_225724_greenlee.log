@@ -1,0 +1,3 @@
+22:57:24 | INFO | base_ammeter.py:31 | GreenleeAmmeter is running on port 5000
+22:57:29 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 63400)
+22:57:29 | INFO | base_ammeter.py:49 | Stopping GreenleeAmmeter server on port 5000

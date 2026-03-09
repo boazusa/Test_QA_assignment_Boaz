@@ -1,0 +1,1243 @@
+[
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.014,
+        "mean_current_a": 0.47247,
+        "median_current_a": 0.136873,
+        "std_dev_current_a": 1.101795,
+        "min_current_a": 0.021398,
+        "max_current_a": 7.092137,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_003138_greenlee.log",
+            "start_time": "2026-03-09 00:31:38",
+            "end_time": "2026-03-09 00:31:41"
+        }
+    },
+    {
+        "total_measurements": 67,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 22.333,
+        "actual_runtime_s": 3.004,
+        "mean_current_a": 58.691096,
+        "median_current_a": 39.08285,
+        "std_dev_current_a": 42.784524,
+        "min_current_a": 8.944775,
+        "max_current_a": 176.161744,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_003141_entes.log",
+            "start_time": "2026-03-09 00:31:41",
+            "end_time": "2026-03-09 00:31:44"
+        }
+    },
+    {
+        "total_measurements": 29,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 9.667,
+        "actual_runtime_s": 3.002,
+        "mean_current_a": 0.030872,
+        "median_current_a": 0.028715,
+        "std_dev_current_a": 0.015814,
+        "min_current_a": 0.007534,
+        "max_current_a": 0.063314,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_003144_circutor.log",
+            "start_time": "2026-03-09 00:31:44",
+            "end_time": "2026-03-09 00:31:47"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.001,
+        "mean_current_a": 0.324274,
+        "median_current_a": 0.076787,
+        "std_dev_current_a": 0.627737,
+        "min_current_a": 0.020816,
+        "max_current_a": 2.912286,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_003219_greenlee.log",
+            "start_time": "2026-03-09 00:32:19",
+            "end_time": "2026-03-09 00:32:22"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.005,
+        "mean_current_a": 70.561575,
+        "median_current_a": 69.714054,
+        "std_dev_current_a": 37.465988,
+        "min_current_a": 11.907341,
+        "max_current_a": 145.190475,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_003222_entes.log",
+            "start_time": "2026-03-09 00:32:22",
+            "end_time": "2026-03-09 00:32:25"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.042,
+        "mean_current_a": 0.027181,
+        "median_current_a": 0.023599,
+        "std_dev_current_a": 0.014856,
+        "min_current_a": 0.006918,
+        "max_current_a": 0.061186,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_003225_circutor.log",
+            "start_time": "2026-03-09 00:32:25",
+            "end_time": "2026-03-09 00:32:28"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.002,
+        "mean_current_a": 0.355755,
+        "median_current_a": 0.109704,
+        "std_dev_current_a": 0.920019,
+        "min_current_a": 0.012228,
+        "max_current_a": 5.411601,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_004011_greenlee.log",
+            "start_time": "2026-03-09 00:40:11",
+            "end_time": "2026-03-09 00:40:14"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.002,
+        "mean_current_a": 72.366042,
+        "median_current_a": 64.440077,
+        "std_dev_current_a": 42.6407,
+        "min_current_a": 18.79269,
+        "max_current_a": 168.635646,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_004014_entes.log",
+            "start_time": "2026-03-09 00:40:14",
+            "end_time": "2026-03-09 00:40:17"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 0.02786,
+        "median_current_a": 0.023099,
+        "std_dev_current_a": 0.015939,
+        "min_current_a": 0.005314,
+        "max_current_a": 0.064439,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_004017_circutor.log",
+            "start_time": "2026-03-09 00:40:17",
+            "end_time": "2026-03-09 00:40:20"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.011,
+        "mean_current_a": 1.051082,
+        "median_current_a": 0.128217,
+        "std_dev_current_a": 4.451436,
+        "min_current_a": 0.013165,
+        "max_current_a": 31.218846,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_004306_greenlee.log",
+            "start_time": "2026-03-09 00:43:06",
+            "end_time": "2026-03-09 00:43:09"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.003,
+        "mean_current_a": 75.421781,
+        "median_current_a": 69.414033,
+        "std_dev_current_a": 48.822683,
+        "min_current_a": 17.52758,
+        "max_current_a": 178.659665,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_004309_entes.log",
+            "start_time": "2026-03-09 00:43:09",
+            "end_time": "2026-03-09 00:43:12"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.007,
+        "mean_current_a": 0.027259,
+        "median_current_a": 0.026042,
+        "std_dev_current_a": 0.013168,
+        "min_current_a": 0.007438,
+        "max_current_a": 0.05942,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_004312_circutor.log",
+            "start_time": "2026-03-09 00:43:12",
+            "end_time": "2026-03-09 00:43:15"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.015,
+        "mean_current_a": 0.186446,
+        "median_current_a": 0.111215,
+        "std_dev_current_a": 0.304101,
+        "min_current_a": 0.013712,
+        "max_current_a": 2.039062,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_004556_greenlee.log",
+            "start_time": "2026-03-09 00:45:56",
+            "end_time": "2026-03-09 00:45:59"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.01,
+        "mean_current_a": 74.766399,
+        "median_current_a": 61.591165,
+        "std_dev_current_a": 48.910518,
+        "min_current_a": 14.262938,
+        "max_current_a": 169.867153,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_004559_entes.log",
+            "start_time": "2026-03-09 00:45:59",
+            "end_time": "2026-03-09 00:46:02"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.014,
+        "mean_current_a": 0.033262,
+        "median_current_a": 0.032045,
+        "std_dev_current_a": 0.015394,
+        "min_current_a": 0.00618,
+        "max_current_a": 0.067147,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_004602_circutor.log",
+            "start_time": "2026-03-09 00:46:02",
+            "end_time": "2026-03-09 00:46:05"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.001,
+        "mean_current_a": 0.387475,
+        "median_current_a": 0.106814,
+        "std_dev_current_a": 1.211735,
+        "min_current_a": 0.01153,
+        "max_current_a": 8.451108,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_004651_greenlee.log",
+            "start_time": "2026-03-09 00:46:51",
+            "end_time": "2026-03-09 00:46:54"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.035,
+        "mean_current_a": 97.972209,
+        "median_current_a": 105.749838,
+        "std_dev_current_a": 49.049126,
+        "min_current_a": 10.851719,
+        "max_current_a": 173.323249,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_004654_entes.log",
+            "start_time": "2026-03-09 00:46:54",
+            "end_time": "2026-03-09 00:46:57"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 0.02905,
+        "median_current_a": 0.027547,
+        "std_dev_current_a": 0.015026,
+        "min_current_a": 0.004906,
+        "max_current_a": 0.060328,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_004657_circutor.log",
+            "start_time": "2026-03-09 00:46:57",
+            "end_time": "2026-03-09 00:47:00"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.015,
+        "mean_current_a": 0.491193,
+        "median_current_a": 0.104913,
+        "std_dev_current_a": 1.837057,
+        "min_current_a": 0.015388,
+        "max_current_a": 12.837635,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_004834_greenlee.log",
+            "start_time": "2026-03-09 00:48:34",
+            "end_time": "2026-03-09 00:48:37"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.002,
+        "mean_current_a": 56.784171,
+        "median_current_a": 58.571062,
+        "std_dev_current_a": 35.77022,
+        "min_current_a": 7.141417,
+        "max_current_a": 134.16369,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_004837_entes.log",
+            "start_time": "2026-03-09 00:48:37",
+            "end_time": "2026-03-09 00:48:40"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.016,
+        "mean_current_a": 0.034342,
+        "median_current_a": 0.032258,
+        "std_dev_current_a": 0.015658,
+        "min_current_a": 0.006024,
+        "max_current_a": 0.071782,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_004840_circutor.log",
+            "start_time": "2026-03-09 00:48:40",
+            "end_time": "2026-03-09 00:48:43"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 2.104569,
+        "median_current_a": 0.103638,
+        "std_dev_current_a": 11.176824,
+        "min_current_a": 0.011945,
+        "max_current_a": 77.392697,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_004929_greenlee.log",
+            "start_time": "2026-03-09 00:49:29",
+            "end_time": "2026-03-09 00:49:32"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 78.096987,
+        "median_current_a": 64.58625,
+        "std_dev_current_a": 37.920502,
+        "min_current_a": 18.117461,
+        "max_current_a": 179.594261,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_004932_entes.log",
+            "start_time": "2026-03-09 00:49:32",
+            "end_time": "2026-03-09 00:49:35"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.004,
+        "mean_current_a": 0.0331,
+        "median_current_a": 0.032096,
+        "std_dev_current_a": 0.014996,
+        "min_current_a": 0.007463,
+        "max_current_a": 0.069525,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_004935_circutor.log",
+            "start_time": "2026-03-09 00:49:35",
+            "end_time": "2026-03-09 00:49:38"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.009,
+        "mean_current_a": 0.826991,
+        "median_current_a": 0.141981,
+        "std_dev_current_a": 2.825594,
+        "min_current_a": 0.019817,
+        "max_current_a": 15.526514,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_005132_greenlee.log",
+            "start_time": "2026-03-09 00:51:32",
+            "end_time": "2026-03-09 00:51:35"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.012,
+        "mean_current_a": 65.034062,
+        "median_current_a": 67.323819,
+        "std_dev_current_a": 35.319391,
+        "min_current_a": 11.290686,
+        "max_current_a": 142.777727,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_005135_entes.log",
+            "start_time": "2026-03-09 00:51:35",
+            "end_time": "2026-03-09 00:51:38"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.017,
+        "mean_current_a": 0.028123,
+        "median_current_a": 0.024989,
+        "std_dev_current_a": 0.01569,
+        "min_current_a": 0.006833,
+        "max_current_a": 0.069772,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_005138_circutor.log",
+            "start_time": "2026-03-09 00:51:38",
+            "end_time": "2026-03-09 00:51:41"
+        }
+    },
+    {
+        "total_measurements": 29,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 9.667,
+        "actual_runtime_s": 3.014,
+        "mean_current_a": 0.111877,
+        "median_current_a": 0.089914,
+        "std_dev_current_a": 0.106023,
+        "min_current_a": 0.011923,
+        "max_current_a": 0.529506,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_005509_greenlee.log",
+            "start_time": "2026-03-09 00:55:09",
+            "end_time": "2026-03-09 00:55:12"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.057,
+        "mean_current_a": 72.354453,
+        "median_current_a": 70.633586,
+        "std_dev_current_a": 47.640969,
+        "min_current_a": 11.762574,
+        "max_current_a": 168.136547,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_005512_entes.log",
+            "start_time": "2026-03-09 00:55:12",
+            "end_time": "2026-03-09 00:55:15"
+        }
+    },
+    {
+        "total_measurements": 19,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 6.333,
+        "actual_runtime_s": 3.043,
+        "mean_current_a": 0.027755,
+        "median_current_a": 0.021767,
+        "std_dev_current_a": 0.015442,
+        "min_current_a": 0.009445,
+        "max_current_a": 0.060341,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_005515_circutor.log",
+            "start_time": "2026-03-09 00:55:15",
+            "end_time": "2026-03-09 00:55:18"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.011,
+        "mean_current_a": 0.726348,
+        "median_current_a": 0.130379,
+        "std_dev_current_a": 2.083644,
+        "min_current_a": 0.016446,
+        "max_current_a": 13.184601,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_005642_greenlee.log",
+            "start_time": "2026-03-09 00:56:42",
+            "end_time": "2026-03-09 00:56:45"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.009,
+        "mean_current_a": 80.165119,
+        "median_current_a": 69.431346,
+        "std_dev_current_a": 42.851935,
+        "min_current_a": 19.788471,
+        "max_current_a": 177.786507,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_005645_entes.log",
+            "start_time": "2026-03-09 00:56:45",
+            "end_time": "2026-03-09 00:56:48"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 0.027891,
+        "median_current_a": 0.027118,
+        "std_dev_current_a": 0.015152,
+        "min_current_a": 0.004717,
+        "max_current_a": 0.072416,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_005648_circutor.log",
+            "start_time": "2026-03-09 00:56:48",
+            "end_time": "2026-03-09 00:56:51"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.001,
+        "mean_current_a": 0.25489,
+        "median_current_a": 0.097273,
+        "std_dev_current_a": 0.410196,
+        "min_current_a": 0.020162,
+        "max_current_a": 1.767448,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_010240_greenlee.log",
+            "start_time": "2026-03-09 01:02:40",
+            "end_time": "2026-03-09 01:02:43"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.005,
+        "mean_current_a": 60.095778,
+        "median_current_a": 42.652558,
+        "std_dev_current_a": 45.253116,
+        "min_current_a": 19.415709,
+        "max_current_a": 139.498957,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_010243_entes.log",
+            "start_time": "2026-03-09 01:02:43",
+            "end_time": "2026-03-09 01:02:46"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.003,
+        "mean_current_a": 0.032115,
+        "median_current_a": 0.033886,
+        "std_dev_current_a": 0.017079,
+        "min_current_a": 0.005561,
+        "max_current_a": 0.067429,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_010246_circutor.log",
+            "start_time": "2026-03-09 01:02:46",
+            "end_time": "2026-03-09 01:02:49"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.012,
+        "mean_current_a": 1.046341,
+        "median_current_a": 0.118697,
+        "std_dev_current_a": 5.585802,
+        "min_current_a": 0.020123,
+        "max_current_a": 39.24128,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_010424_greenlee.log",
+            "start_time": "2026-03-09 01:04:24",
+            "end_time": "2026-03-09 01:04:27"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.016,
+        "mean_current_a": 70.009237,
+        "median_current_a": 58.706822,
+        "std_dev_current_a": 40.891593,
+        "min_current_a": 9.617279,
+        "max_current_a": 154.03189,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_010427_entes.log",
+            "start_time": "2026-03-09 01:04:27",
+            "end_time": "2026-03-09 01:04:30"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.01,
+        "mean_current_a": 0.029092,
+        "median_current_a": 0.027645,
+        "std_dev_current_a": 0.014369,
+        "min_current_a": 0.005657,
+        "max_current_a": 0.058495,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_010430_circutor.log",
+            "start_time": "2026-03-09 01:04:30",
+            "end_time": "2026-03-09 01:04:33"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.007,
+        "mean_current_a": 0.374664,
+        "median_current_a": 0.118623,
+        "std_dev_current_a": 0.755428,
+        "min_current_a": 0.017074,
+        "max_current_a": 4.272456,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_200635_greenlee.log",
+            "start_time": "2026-03-09 20:06:35",
+            "end_time": "2026-03-09 20:06:38"
+        }
+    },
+    {
+        "total_measurements": 17,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 5.667,
+        "actual_runtime_s": 3.008,
+        "mean_current_a": 64.810151,
+        "median_current_a": 66.447169,
+        "std_dev_current_a": 33.588917,
+        "min_current_a": 6.28004,
+        "max_current_a": 117.567307,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_200638_entes.log",
+            "start_time": "2026-03-09 20:06:38",
+            "end_time": "2026-03-09 20:06:41"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.005,
+        "mean_current_a": 0.032016,
+        "median_current_a": 0.030932,
+        "std_dev_current_a": 0.015555,
+        "min_current_a": 0.003608,
+        "max_current_a": 0.059889,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_200641_circutor.log",
+            "start_time": "2026-03-09 20:06:41",
+            "end_time": "2026-03-09 20:06:44"
+        }
+    },
+    {
+        "total_measurements": 149,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 49.667,
+        "actual_runtime_s": 3.007,
+        "mean_current_a": 0.308204,
+        "median_current_a": 0.110244,
+        "std_dev_current_a": 0.769378,
+        "min_current_a": 0.014219,
+        "max_current_a": 7.744247,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_204133_greenlee.log",
+            "start_time": "2026-03-09 20:41:33",
+            "end_time": "2026-03-09 20:41:36"
+        }
+    },
+    {
+        "total_measurements": 117,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 39.0,
+        "actual_runtime_s": 3.005,
+        "mean_current_a": 67.062861,
+        "median_current_a": 57.347673,
+        "std_dev_current_a": 38.909638,
+        "min_current_a": 10.530515,
+        "max_current_a": 179.087529,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_204136_entes.log",
+            "start_time": "2026-03-09 20:41:36",
+            "end_time": "2026-03-09 20:41:39"
+        }
+    },
+    {
+        "total_measurements": 159,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 53.0,
+        "actual_runtime_s": 3.003,
+        "mean_current_a": 0.027115,
+        "median_current_a": 0.024965,
+        "std_dev_current_a": 0.015259,
+        "min_current_a": 0.004642,
+        "max_current_a": 0.067876,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_204139_circutor.log",
+            "start_time": "2026-03-09 20:41:39",
+            "end_time": "2026-03-09 20:41:42"
+        }
+    },
+    {
+        "total_measurements": 349,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 116.333,
+        "actual_runtime_s": 3.004,
+        "mean_current_a": 0.415216,
+        "median_current_a": 0.110258,
+        "std_dev_current_a": 1.803899,
+        "min_current_a": 0.011972,
+        "max_current_a": 25.245855,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_204800_greenlee.log",
+            "start_time": "2026-03-09 20:48:00",
+            "end_time": "2026-03-09 20:48:03"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.012,
+        "mean_current_a": 0.197238,
+        "median_current_a": 0.10051,
+        "std_dev_current_a": 0.221574,
+        "min_current_a": 0.010551,
+        "max_current_a": 0.939449,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_204907_greenlee.log",
+            "start_time": "2026-03-09 20:49:07",
+            "end_time": "2026-03-09 20:49:10"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.007,
+        "mean_current_a": 77.6381,
+        "median_current_a": 60.165014,
+        "std_dev_current_a": 46.220467,
+        "min_current_a": 15.706612,
+        "max_current_a": 175.165996,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_204910_entes.log",
+            "start_time": "2026-03-09 20:49:10",
+            "end_time": "2026-03-09 20:49:13"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.008,
+        "mean_current_a": 0.034964,
+        "median_current_a": 0.031654,
+        "std_dev_current_a": 0.015119,
+        "min_current_a": 0.004081,
+        "max_current_a": 0.068628,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_204913_circutor.log",
+            "start_time": "2026-03-09 20:49:13",
+            "end_time": "2026-03-09 20:49:16"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 0.306083,
+        "median_current_a": 0.103826,
+        "std_dev_current_a": 0.500731,
+        "min_current_a": 0.012519,
+        "max_current_a": 2.793823,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_212322_greenlee.log",
+            "start_time": "2026-03-09 21:23:22",
+            "end_time": "2026-03-09 21:23:25"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.011,
+        "mean_current_a": 77.188461,
+        "median_current_a": 74.605978,
+        "std_dev_current_a": 38.218378,
+        "min_current_a": 7.126268,
+        "max_current_a": 172.868238,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_212325_entes.log",
+            "start_time": "2026-03-09 21:23:25",
+            "end_time": "2026-03-09 21:23:28"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.005,
+        "mean_current_a": 0.029122,
+        "median_current_a": 0.027484,
+        "std_dev_current_a": 0.015443,
+        "min_current_a": 0.006387,
+        "max_current_a": 0.062936,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_212328_circutor.log",
+            "start_time": "2026-03-09 21:23:28",
+            "end_time": "2026-03-09 21:23:31"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.009,
+        "mean_current_a": 0.568072,
+        "median_current_a": 0.095351,
+        "std_dev_current_a": 2.551226,
+        "min_current_a": 0.01779,
+        "max_current_a": 17.475306,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_220250_greenlee.log",
+            "start_time": "2026-03-09 22:02:50",
+            "end_time": "2026-03-09 22:02:53"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.014,
+        "mean_current_a": 68.983847,
+        "median_current_a": 54.91259,
+        "std_dev_current_a": 44.301385,
+        "min_current_a": 8.095401,
+        "max_current_a": 174.097977,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_220253_entes.log",
+            "start_time": "2026-03-09 22:02:53",
+            "end_time": "2026-03-09 22:02:56"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 0.029951,
+        "median_current_a": 0.027285,
+        "std_dev_current_a": 0.01525,
+        "min_current_a": 0.007523,
+        "max_current_a": 0.063115,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_220256_circutor.log",
+            "start_time": "2026-03-09 22:02:56",
+            "end_time": "2026-03-09 22:02:59"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.01,
+        "mean_current_a": 0.251461,
+        "median_current_a": 0.082795,
+        "std_dev_current_a": 0.749269,
+        "min_current_a": 0.014143,
+        "max_current_a": 5.069002,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_230927_greenlee.log",
+            "start_time": "2026-03-09 23:09:27",
+            "end_time": "2026-03-09 23:09:30"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 73.215217,
+        "median_current_a": 67.806199,
+        "std_dev_current_a": 40.538074,
+        "min_current_a": 5.702385,
+        "max_current_a": 175.24944,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_230930_entes.log",
+            "start_time": "2026-03-09 23:09:30",
+            "end_time": "2026-03-09 23:09:33"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 0.030938,
+        "median_current_a": 0.030344,
+        "std_dev_current_a": 0.015197,
+        "min_current_a": 0.005806,
+        "max_current_a": 0.061297,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_230933_circutor.log",
+            "start_time": "2026-03-09 23:09:33",
+            "end_time": "2026-03-09 23:09:36"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.008,
+        "mean_current_a": 0.173658,
+        "median_current_a": 0.073944,
+        "std_dev_current_a": 0.24764,
+        "min_current_a": 0.017098,
+        "max_current_a": 1.367049,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260309_231640_greenlee.log",
+            "start_time": "2026-03-09 23:16:40",
+            "end_time": "2026-03-09 23:16:43"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.005,
+        "mean_current_a": 81.875768,
+        "median_current_a": 78.298452,
+        "std_dev_current_a": 36.300371,
+        "min_current_a": 23.264272,
+        "max_current_a": 162.964536,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260309_231643_entes.log",
+            "start_time": "2026-03-09 23:16:43",
+            "end_time": "2026-03-09 23:16:46"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.006,
+        "mean_current_a": 0.030973,
+        "median_current_a": 0.031323,
+        "std_dev_current_a": 0.015944,
+        "min_current_a": 0.005074,
+        "max_current_a": 0.064747,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260309_231646_circutor.log",
+            "start_time": "2026-03-09 23:16:46",
+            "end_time": "2026-03-09 23:16:49"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.011,
+        "mean_current_a": 0.255941,
+        "median_current_a": 0.132415,
+        "std_dev_current_a": 0.3276,
+        "min_current_a": 0.013059,
+        "max_current_a": 1.502804,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260310_000001_greenlee.log",
+            "start_time": "2026-03-10 00:00:01",
+            "end_time": "2026-03-10 00:00:04"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.014,
+        "mean_current_a": 63.235247,
+        "median_current_a": 50.096531,
+        "std_dev_current_a": 42.645078,
+        "min_current_a": 7.435543,
+        "max_current_a": 167.119844,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260310_000004_entes.log",
+            "start_time": "2026-03-10 00:00:04",
+            "end_time": "2026-03-10 00:00:07"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.004,
+        "mean_current_a": 0.028232,
+        "median_current_a": 0.024095,
+        "std_dev_current_a": 0.015312,
+        "min_current_a": 0.007541,
+        "max_current_a": 0.061722,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260310_000007_circutor.log",
+            "start_time": "2026-03-10 00:00:07",
+            "end_time": "2026-03-10 00:00:10"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.01,
+        "mean_current_a": 0.234943,
+        "median_current_a": 0.118987,
+        "std_dev_current_a": 0.298307,
+        "min_current_a": 0.013605,
+        "max_current_a": 1.20823,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260310_001107_greenlee.log",
+            "start_time": "2026-03-10 00:11:07",
+            "end_time": "2026-03-10 00:11:10"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.011,
+        "mean_current_a": 78.027989,
+        "median_current_a": 72.646495,
+        "std_dev_current_a": 46.526266,
+        "min_current_a": 9.491871,
+        "max_current_a": 179.812499,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260310_001110_entes.log",
+            "start_time": "2026-03-10 00:11:10",
+            "end_time": "2026-03-10 00:11:13"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.005,
+        "mean_current_a": 0.026263,
+        "median_current_a": 0.025955,
+        "std_dev_current_a": 0.012424,
+        "min_current_a": 0.006332,
+        "max_current_a": 0.054403,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260310_001113_circutor.log",
+            "start_time": "2026-03-10 00:11:13",
+            "end_time": "2026-03-10 00:11:16"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.003,
+        "mean_current_a": 0.191284,
+        "median_current_a": 0.100241,
+        "std_dev_current_a": 0.304486,
+        "min_current_a": 0.013712,
+        "max_current_a": 1.897306,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260310_001157_greenlee.log",
+            "start_time": "2026-03-10 00:11:57",
+            "end_time": "2026-03-10 00:12:00"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.004,
+        "mean_current_a": 71.269665,
+        "median_current_a": 63.104009,
+        "std_dev_current_a": 44.572114,
+        "min_current_a": 9.711897,
+        "max_current_a": 192.871085,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260310_001200_entes.log",
+            "start_time": "2026-03-10 00:12:00",
+            "end_time": "2026-03-10 00:12:03"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.004,
+        "mean_current_a": 0.029092,
+        "median_current_a": 0.025169,
+        "std_dev_current_a": 0.016825,
+        "min_current_a": 0.005986,
+        "max_current_a": 0.066664,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260310_001203_circutor.log",
+            "start_time": "2026-03-10 00:12:03",
+            "end_time": "2026-03-10 00:12:06"
+        }
+    },
+    {
+        "total_measurements": 49,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 16.333,
+        "actual_runtime_s": 3.111,
+        "mean_current_a": 0.199957,
+        "median_current_a": 0.098175,
+        "std_dev_current_a": 0.495352,
+        "min_current_a": 0.021394,
+        "max_current_a": 3.48967,
+        "metadata": {
+            "emulator": "Greenlee",
+            "log_file": "results\\greenlee\\20260310_003852_greenlee.log",
+            "start_time": "2026-03-10 00:38:52",
+            "end_time": "2026-03-10 00:38:56"
+        }
+    },
+    {
+        "total_measurements": 47,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 15.667,
+        "actual_runtime_s": 3.019,
+        "mean_current_a": 65.375941,
+        "median_current_a": 55.608987,
+        "std_dev_current_a": 40.27637,
+        "min_current_a": 7.358483,
+        "max_current_a": 181.362051,
+        "metadata": {
+            "emulator": "Entes",
+            "log_file": "results\\entes\\20260310_003856_entes.log",
+            "start_time": "2026-03-10 00:38:56",
+            "end_time": "2026-03-10 00:38:59"
+        }
+    },
+    {
+        "total_measurements": 59,
+        "requested_duration_s": 3,
+        "sampling_frequency_hz": 19.667,
+        "actual_runtime_s": 3.014,
+        "mean_current_a": 0.033542,
+        "median_current_a": 0.036135,
+        "std_dev_current_a": 0.014224,
+        "min_current_a": 0.005406,
+        "max_current_a": 0.063622,
+        "metadata": {
+            "emulator": "Circutor",
+            "log_file": "results\\circutor\\20260310_003859_circutor.log",
+            "start_time": "2026-03-10 00:38:59",
+            "end_time": "2026-03-10 00:39:02"
+        }
+    }
+]

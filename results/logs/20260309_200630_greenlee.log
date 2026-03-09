@@ -1,0 +1,159 @@
+20:06:30 | INFO | base_ammeter.py:26 | GreenleeAmmeter is running on port 5000
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49761)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 8.145885125168515V, Resistance: 55.789357273412406Ω, Current: 0.14601145313876215A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 1: 0.146011 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49762)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 4.097542740986074V, Resistance: 6.658687704903728Ω, Current: 0.6153679107023562A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 2: 0.615368 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49763)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 2.665709946730926V, Resistance: 58.68821259366379Ω, Current: 0.04542155620221984A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 3: 0.045422 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49764)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.773547022998883V, Resistance: 40.33343342494262Ω, Current: 0.19273209253223753A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 4: 0.192732 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49765)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 5.537701636207519V, Resistance: 8.356692311340366Ω, Current: 0.6626666903474041A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 5: 0.662667 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49766)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 4.3260368712329464V, Resistance: 76.00658060307701Ω, Current: 0.05691660954759243A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 6: 0.056917 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49767)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.672225581336618V, Resistance: 88.30420245168992Ω, Current: 0.08688403686714676A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 7: 0.086884 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49768)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.693000339775352V, Resistance: 70.98066519354066Ω, Current: 0.10838163207965296A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 8: 0.108382 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49769)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.906595002839778V, Resistance: 91.83500630658287Ω, Current: 0.0860956548142908A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 9: 0.086096 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 49770)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.962305578365634V, Resistance: 16.883513347864856Ω, Current: 0.4716024096591586A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 10: 0.471602 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58279)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.051162728257008V, Resistance: 28.967595632945947Ω, Current: 0.3124581978755177A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 11: 0.312458 A
+20:06:35 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58280)
+20:06:35 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 6.537428802135502V, Resistance: 87.72944247150117Ω, Current: 0.07451807076352024A
+20:06:35 | INFO | client.py:69 | 20:06:35 | Measurement 12: 0.074518 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58281)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 4.119412178301061V, Resistance: 36.033622292819096Ω, Current: 0.11432134534867429A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 13: 0.114321 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58283)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 2.4886037842336175V, Resistance: 33.44119207122365Ω, Current: 0.07441731679102064A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 14: 0.074417 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58284)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 8.559453931662556V, Resistance: 64.79936188282304Ω, Current: 0.13209163922232217A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 15: 0.132092 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58285)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.354172991768149V, Resistance: 2.6956835283480514Ω, Current: 2.728129216367946A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 16: 2.728129 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58286)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 4.722246315397008V, Resistance: 41.84347465859333Ω, Current: 0.11285502348756804A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 17: 0.112855 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58287)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 3.910973822496438V, Resistance: 59.52193931173118Ω, Current: 0.06570642468508454A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 18: 0.065706 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58288)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.017337101614723V, Resistance: 2.1105748344044803Ω, Current: 4.272455519995364A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 19: 4.272456 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58289)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 4.688941247766671V, Resistance: 83.02082452140705Ω, Current: 0.05647909756133077A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 20: 0.056479 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 58290)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 5.714929225954099V, Resistance: 66.4796627936819Ω, Current: 0.08596507541998596A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 21: 0.085965 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 56061)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 4.028971475330318V, Resistance: 21.98193091115033Ω, Current: 0.18328560359939186A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 22: 0.183286 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55885)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 6.533286347814143V, Resistance: 13.83019187149747Ω, Current: 0.4723930375310656A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 23: 0.472393 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55886)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.557784654242211V, Resistance: 52.292835310977594Ω, Current: 0.14452811000392707A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 24: 0.144528 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55887)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.266125491979555V, Resistance: 33.48863386650699Ω, Current: 0.2766946400058108A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 25: 0.276695 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55888)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 4.7527224447702V, Resistance: 5.775517267530487Ω, Current: 0.8229085334900891A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 26: 0.822909 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55889)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.669897413925119V, Resistance: 71.2037208032653Ω, Current: 0.10771764912562531A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 27: 0.107718 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55890)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 1.500671006694834V, Resistance: 87.89228200181809Ω, Current: 0.0170739793360217A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 28: 0.017074 A
+20:06:36 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55891)
+20:06:36 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 8.84488243875645V, Resistance: 29.42238517875438Ω, Current: 0.3006174511352416A
+20:06:36 | INFO | client.py:69 | 20:06:36 | Measurement 29: 0.300617 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55892)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.790303038515587V, Resistance: 67.7877624093127Ω, Current: 0.14442581803187815A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 30: 0.144426 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55894)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 5.068157843012903V, Resistance: 21.493744207639725Ω, Current: 0.2357968808994889A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 31: 0.235797 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55895)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 1.1494274220608356V, Resistance: 3.5158499585247784Ω, Current: 0.32692732500539523A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 32: 0.326927 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55896)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 3.6675650504897153V, Resistance: 39.0919103769746Ω, Current: 0.09381902841591327A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 33: 0.093819 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55897)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.789252426417022V, Resistance: 17.5225589420418Ω, Current: 0.5586656868324016A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 34: 0.558666 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55898)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.634094156601266V, Resistance: 98.70362868231172Ω, Current: 0.09760628140237516A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 35: 0.097606 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55899)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 3.3492333220239714V, Resistance: 53.31234890191959Ω, Current: 0.06282284294368011A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 36: 0.062823 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55900)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 8.29851035331609V, Resistance: 81.13147168951947Ω, Current: 0.10228472601943553A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 37: 0.102285 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55901)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 6.799604681183613V, Resistance: 85.30353881209203Ω, Current: 0.07971069871042383A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 38: 0.079711 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55902)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 3.2011964452553965V, Resistance: 46.63960653065409Ω, Current: 0.0686368664613711A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 39: 0.068637 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55903)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.82435690773389V, Resistance: 65.95976704985627Ω, Current: 0.11862317375711441A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 40: 0.118623 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55904)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.446302606498433V, Resistance: 4.1040603207444Ω, Current: 2.301696824179487A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 41: 2.301697 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 55905)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 7.0388369463586855V, Resistance: 22.754054594073164Ω, Current: 0.30934429366237515A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 42: 0.309344 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 65030)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 5.4188122523857425V, Resistance: 37.99786172779162Ω, Current: 0.1426083470487084A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 43: 0.142608 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 65031)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 3.0772924079832196V, Resistance: 66.10084458140041Ω, Current: 0.04655450966581317A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 44: 0.046555 A
+20:06:37 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 65032)
+20:06:37 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 8.491491074948632V, Resistance: 80.43634539385572Ω, Current: 0.10556783793905772A
+20:06:37 | INFO | client.py:69 | 20:06:37 | Measurement 45: 0.105568 A
+20:06:38 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 65033)
+20:06:38 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 8.092173189034984V, Resistance: 27.25195701726215Ω, Current: 0.29693915867800524A
+20:06:38 | INFO | client.py:69 | 20:06:38 | Measurement 46: 0.296939 A
+20:06:38 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 65035)
+20:06:38 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 3.0079069582516293V, Resistance: 29.191968987650537Ω, Current: 0.10303885152536658A
+20:06:38 | INFO | client.py:69 | 20:06:38 | Measurement 47: 0.103039 A
+20:06:38 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 65036)
+20:06:38 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 9.898611355187843V, Resistance: 43.69868426928062Ω, Current: 0.2265196657682068A
+20:06:38 | INFO | client.py:69 | 20:06:38 | Measurement 48: 0.226520 A
+20:06:38 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 65037)
+20:06:38 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 5.551004450089946V, Resistance: 50.3413332106388Ω, Current: 0.11026733095969801A
+20:06:38 | INFO | client.py:69 | 20:06:38 | Measurement 49: 0.110267 A
+20:06:38 | INFO | client.py:107 | --- Sampling Summary ---
+20:06:38 | INFO | client.py:109 | total_measurements: 49
+20:06:38 | INFO | client.py:109 | requested_duration_s: 3
+20:06:38 | INFO | client.py:109 | sampling_frequency_hz: 16.333
+20:06:38 | INFO | client.py:109 | actual_runtime_s: 3.007
+20:06:38 | INFO | client.py:109 | mean_current_a: 0.374664
+20:06:38 | INFO | client.py:109 | median_current_a: 0.118623
+20:06:38 | INFO | client.py:109 | std_dev_current_a: 0.755428
+20:06:38 | INFO | client.py:109 | min_current_a: 0.017074
+20:06:38 | INFO | client.py:109 | max_current_a: 4.272456
+20:06:38 | INFO | client.py:109 | metadata: {'emulator': 'Greenlee', 'log_file': 'results\\greenlee\\20260309_200635_greenlee.log', 'start_time': '2026-03-09 20:06:35', 'end_time': '2026-03-09 20:06:38'}

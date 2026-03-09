@@ -1,0 +1,4 @@
+22:30:38 | INFO | base_ammeter.py:29 | EntesAmmeter is running on port 5001
+22:30:43 | INFO | base_ammeter.py:33 | Connected by ('127.0.0.1', 54573)
+22:30:43 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.036831952168370236T, Calibration Factor: 849.9931816821713, Current: 31.306908211158564A
+22:30:43 | INFO | base_ammeter.py:42 | Stopping EntesAmmeter server on port 5001

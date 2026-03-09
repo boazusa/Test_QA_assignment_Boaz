@@ -1,0 +1,69 @@
+corrections in main.py:
+
+According to README.md:
+GreenleeAmmeter port is 5000 (and not 5001), and command is b'MEASURE_GREENLEE -get_measurement'
+EntesAmmeter port is 5001 (and not 5001), and command is b'MEASURE_ENTES -get_data'
+CircutorAmmeter port is 5002 (and not 5003), and command is b'MEASURE_CIRCUTOR -get_measurement'
+made commands corrections in the main.py file
+
+In addition, set each emulator thread in thread parameter, start the threads, and wait until they finish (join) after sample measurements are done.
+modified the run_*_emulator functions to start servers in threads so they can be stopped 
+and the threads can be finished before the end of execution (and not hang forever and hold the application up) 
+
+
+Circutor_Ammeter.py:
+
+return b'MEASURE_CIRCUTOR -get_measurement -current' is incorrect, it should be return b'MEASURE_CIRCUTOR -get_measurement'
+
+client.py:
+
+- Created get_current_from_ammeter function which is based on request_current_from_ammeter but returns the current value, so it can be used in sampling and results analysis.
+1) Each time the sampling function, sample_measurements, runs, it returns (to corresponding log) the:
+	* # of measurements
+	* Total duration [seconds]
+	* Sampling frequency [Hz]; samples / duration
+	* Actual runtime [seconds]
+2) added to the sample_measurements function:
+	* Measurements count
+	* Mean (average) current
+	* Median current
+	* Standard deviation
+	* Minimum current
+	* Maximum current
+3) added to the sample_measurements function all_runs.json generation with measurements [info] metadata.
+
+
+
+Replacing prints by logging to file in all files:
+
+Changing the base_ammeter.py to conect to the logger, so the Circutor_Ammeter.py, Entes_Ammeter.py, and Greenlee_Ammeter.py inherit the logger from it, and create log file for each one instead of prints.
+
+
+base_ammeter.py:
+
+- random.seed(time.time()) can be removed as it does not affect code and the random seeds are being generated from src.utils.Utils.
+- Added port_loggers to AmmeterEmulatorBase class so sample_measurements and analyze_and_log_results from client.py will be logged to corresponding log file (Greenlee, Entes, or Circutor logfiles).
+
+- Implemented stop_server() function so servers can be started and stopped in the same run.
+
+
+Flask_ammeter_filter.py:
+
+Added Flask GUI to filter by each ammeter or by all of them (if non is selected).
+
+
+plot_ammeter_results.py:
+
+Added function that plots, using matplotlib, the distribution, measurements over time, and spread of each ammeter. See plots in Accuracy_Assesment_plots.docx.
+
+
+config.yaml:
+
+Implemented the config.yaml file, and added the plot types (as shown in 'plot_ammeter_results.py').
+
+
+run_tests.py:
+
+changed results[ammeter_type] = framework.run_test() to results[ammeter_type] = framework.run_test(ammeter_type), so it run test for specific ammeter [otherwise, it has no ammeter selected and fails to run test].
+
+

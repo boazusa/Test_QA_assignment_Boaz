@@ -1,0 +1,4 @@
+22:29:44 | INFO | base_ammeter.py:29 | GreenleeAmmeter is running on port 5000
+22:29:49 | INFO | base_ammeter.py:33 | Connected by ('127.0.0.1', 52259)
+22:29:49 | INFO | Greenlee_Ammeter.py:16 | Greenlee Ammeter - Voltage: 1.4832197522664217V, Resistance: 50.90227347264533Ω, Current: 0.029138575766434045A
+22:29:49 | INFO | base_ammeter.py:42 | Stopping GreenleeAmmeter server on port 5000

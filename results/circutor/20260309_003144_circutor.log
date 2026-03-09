@@ -1,0 +1,42 @@
+2026-03-09 00:31:44 | Sampling start for Circutor
+00:31:44 | Measurement 1: 0.043955 A
+00:31:44 | Measurement 2: 0.009078 A
+00:31:44 | Measurement 3: 0.016816 A
+00:31:45 | Measurement 4: 0.017254 A
+00:31:45 | Measurement 5: 0.026956 A
+00:31:45 | Measurement 6: 0.057154 A
+00:31:45 | Measurement 7: 0.063314 A
+00:31:45 | Measurement 8: 0.042705 A
+00:31:45 | Measurement 9: 0.039627 A
+00:31:45 | Measurement 10: 0.028715 A
+00:31:45 | Measurement 11: 0.041955 A
+00:31:45 | Measurement 12: 0.032542 A
+00:31:45 | Measurement 13: 0.046613 A
+00:31:46 | Measurement 14: 0.045651 A
+00:31:46 | Measurement 15: 0.033036 A
+00:31:46 | Measurement 16: 0.013828 A
+00:31:46 | Measurement 17: 0.007534 A
+00:31:46 | Measurement 18: 0.026521 A
+00:31:46 | Measurement 19: 0.007873 A
+00:31:46 | Measurement 20: 0.027549 A
+00:31:46 | Measurement 21: 0.021599 A
+00:31:46 | Measurement 22: 0.033931 A
+00:31:47 | Measurement 23: 0.009474 A
+00:31:47 | Measurement 24: 0.022215 A
+00:31:47 | Measurement 25: 0.023193 A
+00:31:47 | Measurement 26: 0.042250 A
+00:31:47 | Measurement 27: 0.016412 A
+00:31:47 | Measurement 28: 0.035802 A
+00:31:47 | Measurement 29: 0.061741 A
+
+--- Sampling Summary ---
+total_measurements: 29
+requested_duration_s: 3
+sampling_frequency_hz: 9.667
+actual_runtime_s: 3.002
+mean_current_a: 0.030872
+median_current_a: 0.028715
+std_dev_current_a: 0.015814
+min_current_a: 0.007534
+max_current_a: 0.063314
+metadata: {'emulator': 'Circutor', 'log_file': 'results\\circutor\\20260309_003144_circutor.log', 'start_time': '2026-03-09 00:31:44', 'end_time': '2026-03-09 00:31:47'}

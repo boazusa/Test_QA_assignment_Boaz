@@ -1,0 +1,89 @@
+2026-03-09 00:09:45 | Sampling start for Entes
+00:09:45 | Measurement 1: 93.007524 A
+00:09:45 | Measurement 2: 21.839856 A
+00:09:45 | Measurement 3: 134.446021 A
+00:09:45 | Measurement 4: 53.025652 A
+00:09:45 | Measurement 5: 78.735961 A
+00:09:45 | Measurement 6: 54.799569 A
+00:09:46 | Measurement 7: 52.909294 A
+00:09:46 | Measurement 8: 39.716848 A
+00:09:46 | Measurement 9: 25.937203 A
+00:09:46 | Measurement 10: 61.749625 A
+00:09:46 | Measurement 11: 120.018407 A
+00:09:46 | Measurement 12: 101.937844 A
+00:09:46 | Measurement 13: 135.039854 A
+00:09:46 | Measurement 14: 57.143525 A
+00:09:46 | Measurement 15: 37.889164 A
+00:09:46 | Measurement 16: 110.877117 A
+00:09:46 | Measurement 17: 109.580065 A
+00:09:46 | Measurement 18: 24.676261 A
+00:09:46 | Measurement 19: 50.566501 A
+00:09:46 | Measurement 20: 67.858313 A
+00:09:46 | Measurement 21: 83.891922 A
+00:09:46 | Measurement 22: 157.002902 A
+00:09:46 | Measurement 23: 98.810728 A
+00:09:46 | Measurement 24: 95.183601 A
+00:09:46 | Measurement 25: 24.878178 A
+00:09:46 | Measurement 26: 45.170736 A
+00:09:46 | Measurement 27: 43.220338 A
+00:09:46 | Measurement 28: 153.097509 A
+00:09:46 | Measurement 29: 23.695214 A
+00:09:47 | Measurement 30: 58.340247 A
+00:09:47 | Measurement 31: 135.296837 A
+00:09:47 | Measurement 32: 24.525381 A
+00:09:47 | Measurement 33: 88.614994 A
+00:09:47 | Measurement 34: 24.279904 A
+00:09:47 | Measurement 35: 105.659853 A
+00:09:47 | Measurement 36: 56.104627 A
+00:09:47 | Measurement 37: 57.382759 A
+00:09:47 | Measurement 38: 74.881456 A
+00:09:47 | Measurement 39: 70.147958 A
+00:09:47 | Measurement 40: 36.550620 A
+00:09:47 | Measurement 41: 12.847534 A
+00:09:47 | Measurement 42: 63.370357 A
+00:09:47 | Measurement 43: 57.326364 A
+00:09:47 | Measurement 44: 54.876958 A
+00:09:47 | Measurement 45: 8.243063 A
+00:09:47 | Measurement 46: 45.889473 A
+00:09:47 | Measurement 47: 75.487315 A
+00:09:47 | Measurement 48: 30.600615 A
+00:09:47 | Measurement 49: 25.310507 A
+00:09:47 | Measurement 50: 105.608492 A
+00:09:47 | Measurement 51: 53.710840 A
+00:09:48 | Measurement 52: 99.273416 A
+00:09:48 | Measurement 53: 171.845543 A
+00:09:48 | Measurement 54: 26.908089 A
+00:09:48 | Measurement 55: 112.550257 A
+00:09:48 | Measurement 56: 25.619363 A
+00:09:48 | Measurement 57: 74.938203 A
+00:09:48 | Measurement 58: 115.424521 A
+00:09:48 | Measurement 59: 77.195081 A
+00:09:48 | Measurement 60: 14.501869 A
+00:09:48 | Measurement 61: 106.529203 A
+00:09:48 | Measurement 62: 49.560254 A
+00:09:48 | Measurement 63: 122.365009 A
+00:09:48 | Measurement 64: 15.723143 A
+00:09:48 | Measurement 65: 33.432739 A
+00:09:48 | Measurement 66: 20.664068 A
+00:09:48 | Measurement 67: 177.615375 A
+
+--- Sampling Summary ---
+Total measurements: 67
+Requested duration: 3.000 s
+Sampling frequency: 22.333 Hz
+Actual runtime: 3.005 s
+
+--- Statistical Analysis ---
+Mean current: 69.640418 A
+Median current: 57.382759 A
+Standard deviation: 42.073751 A
+Minimum current: 8.243063 A
+Maximum current: 177.615375 A
+
+Metadata:
+Emulator: Entes
+Log file: results\entes\20260309_000945_entes.log
+Start time: 2026-03-09 00:09:45
+End time: 2026-03-09 00:09:48
+==================================================
+

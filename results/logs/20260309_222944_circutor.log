@@ -1,0 +1,5 @@
+22:29:44 | INFO | base_ammeter.py:29 | CircutorAmmeter is running on port 5002
+22:29:49 | INFO | base_ammeter.py:33 | Connected by ('127.0.0.1', 52261)
+22:29:49 | INFO | Circutor_Ammeter.py:16 | CIRCUTOR Ammeter - Voltages: [0.5952264875166301, 0.15826014365166774, 0.8482599195409102, 0.9064951205268945, 0.667573330088357, 0.8097409304771562, 0.22917699411275647, 0.7854663845693151, 0.5345747856486189, 0.9016652818300029], Time Step: 0.002152669653207411s
+22:29:49 | INFO | Circutor_Ammeter.py:20 | CIRCUTOR Current: 0.01385552772364865A
+22:29:49 | INFO | base_ammeter.py:42 | Stopping CircutorAmmeter server on port 5002

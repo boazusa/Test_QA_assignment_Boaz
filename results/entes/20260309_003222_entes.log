@@ -1,0 +1,30 @@
+2026-03-09 00:32:22 | Sampling start for Entes
+00:32:22 | Measurement 1: 11.907341 A
+00:32:22 | Measurement 2: 91.341975 A
+00:32:22 | Measurement 3: 51.170702 A
+00:32:23 | Measurement 4: 107.697254 A
+00:32:23 | Measurement 5: 36.489652 A
+00:32:23 | Measurement 6: 40.105117 A
+00:32:23 | Measurement 7: 71.228608 A
+00:32:23 | Measurement 8: 61.610361 A
+00:32:23 | Measurement 9: 98.732137 A
+00:32:24 | Measurement 10: 69.714054 A
+00:32:24 | Measurement 11: 28.177204 A
+00:32:24 | Measurement 12: 26.629646 A
+00:32:24 | Measurement 13: 145.190475 A
+00:32:24 | Measurement 14: 46.097058 A
+00:32:25 | Measurement 15: 86.539006 A
+00:32:25 | Measurement 16: 117.856954 A
+00:32:25 | Measurement 17: 109.059228 A
+
+--- Sampling Summary ---
+total_measurements: 17
+requested_duration_s: 3
+sampling_frequency_hz: 5.667
+actual_runtime_s: 3.005
+mean_current_a: 70.561575
+median_current_a: 69.714054
+std_dev_current_a: 37.465988
+min_current_a: 11.907341
+max_current_a: 145.190475
+metadata: {'emulator': 'Entes', 'log_file': 'results\\entes\\20260309_003222_entes.log', 'start_time': '2026-03-09 00:32:22', 'end_time': '2026-03-09 00:32:25'}

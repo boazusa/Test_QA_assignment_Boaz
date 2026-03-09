@@ -1,0 +1,3 @@
+23:01:50 | INFO | base_ammeter.py:31 | EntesAmmeter is running on port 5001
+23:01:55 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 61255)
+23:01:55 | INFO | base_ammeter.py:49 | Stopping EntesAmmeter server on port 5001

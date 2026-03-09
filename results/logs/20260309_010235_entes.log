@@ -1,0 +1,63 @@
+01:02:35 | INFO | base_ammeter.py:26 | EntesAmmeter is running on port 5001
+01:02:43 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 63918)
+01:02:43 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.09793426746561107T, Calibration Factor: 1174.9801079370798, Current: 115.07081615748254A
+01:02:43 | INFO | client.py:69 | 01:02:43 | Measurement 1: 115.070816 A
+01:02:43 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62760)
+01:02:43 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.08679260883327848T, Calibration Factor: 601.9192696816658, Current: 52.24214372269348A
+01:02:43 | INFO | client.py:69 | 01:02:43 | Measurement 2: 52.242144 A
+01:02:44 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62761)
+01:02:44 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.028658964257942413T, Calibration Factor: 1488.2798310499506, Current: 42.65255848387711A
+01:02:44 | INFO | client.py:69 | 01:02:44 | Measurement 3: 42.652558 A
+01:02:44 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62763)
+01:02:44 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.0894933832821357T, Calibration Factor: 1478.8679147438402, Current: 132.34889311782328A
+01:02:44 | INFO | client.py:69 | 01:02:44 | Measurement 4: 132.348893 A
+01:02:44 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62764)
+01:02:44 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.02043230524801596T, Calibration Factor: 1092.87109394887, Current: 22.32987578829644A
+01:02:44 | INFO | client.py:69 | 01:02:44 | Measurement 5: 22.329876 A
+01:02:44 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62765)
+01:02:44 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.08486971781092467T, Calibration Factor: 587.288866119372, Current: 49.84304034104902A
+01:02:44 | INFO | client.py:69 | 01:02:44 | Measurement 6: 49.843040 A
+01:02:44 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62766)
+01:02:44 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.06875243742473333T, Calibration Factor: 1774.958936690998, Current: 122.03275322631904A
+01:02:44 | INFO | client.py:69 | 01:02:44 | Measurement 7: 122.032753 A
+01:02:44 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62767)
+01:02:44 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.06162776334863603T, Calibration Factor: 1953.4028123265682, Current: 120.38384624262183A
+01:02:44 | INFO | client.py:69 | 01:02:44 | Measurement 8: 120.383846 A
+01:02:45 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62769)
+01:02:45 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.014366039863431792T, Calibration Factor: 1351.5004291247897, Current: 19.4157090402519A
+01:02:45 | INFO | client.py:69 | 01:02:45 | Measurement 9: 19.415709 A
+01:02:45 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62770)
+01:02:45 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.011210765883787504T, Calibration Factor: 1807.4447028039071, Current: 20.262839411026487A
+01:02:45 | INFO | client.py:69 | 01:02:45 | Measurement 10: 20.262839 A
+01:02:45 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62771)
+01:02:45 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.07363422695236205T, Calibration Factor: 1894.48525481756, Current: 139.49895721113967A
+01:02:45 | INFO | client.py:69 | 01:02:45 | Measurement 11: 139.498957 A
+01:02:45 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62774)
+01:02:45 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.0184972299376662T, Calibration Factor: 1181.5564373214247, Current: 21.85552110546407A
+01:02:45 | INFO | client.py:69 | 01:02:45 | Measurement 12: 21.855521 A
+01:02:45 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62775)
+01:02:45 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.04351498674015313T, Calibration Factor: 582.7291067157397, Current: 25.357449351836692A
+01:02:45 | INFO | client.py:69 | 01:02:45 | Measurement 13: 25.357449 A
+01:02:45 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62776)
+01:02:45 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.07067521249800006T, Calibration Factor: 678.68215400913, Current: 47.96600545319567A
+01:02:45 | INFO | client.py:69 | 01:02:45 | Measurement 14: 47.966005 A
+01:02:46 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62778)
+01:02:46 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.019630913627847878T, Calibration Factor: 1311.5785533839298, Current: 25.747485297617594A
+01:02:46 | INFO | client.py:69 | 01:02:46 | Measurement 15: 25.747485 A
+01:02:46 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62779)
+01:02:46 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.02750283157932218T, Calibration Factor: 1386.9558288044868, Current: 38.145212567569004A
+01:02:46 | INFO | client.py:69 | 01:02:46 | Measurement 16: 38.145213 A
+01:02:46 | INFO | base_ammeter.py:30 | Connected by ('127.0.0.1', 62780)
+01:02:46 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.05207700454442493T, Calibration Factor: 508.38404635528593, Current: 26.47511829235736A
+01:02:46 | INFO | client.py:69 | 01:02:46 | Measurement 17: 26.475118 A
+01:02:46 | INFO | client.py:107 | --- Sampling Summary ---
+01:02:46 | INFO | client.py:109 | total_measurements: 17
+01:02:46 | INFO | client.py:109 | requested_duration_s: 3
+01:02:46 | INFO | client.py:109 | sampling_frequency_hz: 5.667
+01:02:46 | INFO | client.py:109 | actual_runtime_s: 3.005
+01:02:46 | INFO | client.py:109 | mean_current_a: 60.095778
+01:02:46 | INFO | client.py:109 | median_current_a: 42.652558
+01:02:46 | INFO | client.py:109 | std_dev_current_a: 45.253116
+01:02:46 | INFO | client.py:109 | min_current_a: 19.415709
+01:02:46 | INFO | client.py:109 | max_current_a: 139.498957
+01:02:46 | INFO | client.py:109 | metadata: {'emulator': 'Entes', 'log_file': 'results\\entes\\20260309_010243_entes.log', 'start_time': '2026-03-09 01:02:43', 'end_time': '2026-03-09 01:02:46'}
