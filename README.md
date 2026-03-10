@@ -80,7 +80,7 @@ python main.py
 ### test_ammeter.py
 - Added unittests forr 
 * Install pytest for running unit tests using pytest
-- 
+
 ###Improvements (across multiple files):
 
 - Replacing prints by logging to file in all files:
@@ -88,7 +88,7 @@ python main.py
   inherit the logger from it, and create log files for each one instead of prints.
     - full log files are \results\logs, where each line includes date, time, which file logged and the line logged. 
     
-### all_runs.json
+### all_runs.json (1)
 - all_runs.json contains metadata of all measurements runs (as mentioned in the sample_measurements, in client.py) and paths to measurement logs in **/results**, 
   and into each ammeter's directory in the results.
   * /results/
@@ -98,6 +98,13 @@ python main.py
     * /logs (contain full logges, INFO and DEBUG)
     * all_runs.json
 
+### all_runs.json (2), for TestingFrameworks
+- Implemented another type of all runs, which includes:
+  - emulator type
+  - total_measurements  
+  - all raw measurements
+  - min / max / median / mean / standard deviation **values**.
+- start_time / end_time 
 
 ###main.py:
 - Set each emulator thread in thread parameter, start the threads, and wait until they finish (join) after sample measurements are done.
