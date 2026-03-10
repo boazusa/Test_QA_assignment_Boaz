@@ -98,7 +98,7 @@ python main.py
     * /logs (contain full logges, INFO and DEBUG)
     * all_runs.json
 
-### all_runs.json (2), for TestingFrameworks
+### all_runs.json (2), for TestingFrameworks (under Testing dir)
 - Implemented another type of all runs, which includes:
   - emulator type
   - total_measurements  
