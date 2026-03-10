@@ -13,7 +13,7 @@ and the threads can be finished before the end of execution (and not hang foreve
 
 Circutor_Ammeter.py:
 
-return b'MEASURE_CIRCUTOR -get_measurement -current' is incorrect, it should be return b'MEASURE_CIRCUTOR -get_measurement'
+return b'MEASURE_CIRCUTOR -get_measurement -current' is incorrect, it shall return b'MEASURE_CIRCUTOR -get_measurement'
 
 client.py:
 
@@ -36,7 +36,7 @@ client.py:
 
 Replacing prints by logging to file in all files:
 
-Changing the base_ammeter.py to conect to the logger, so the Circutor_Ammeter.py, Entes_Ammeter.py, and Greenlee_Ammeter.py inherit the logger from it, and create log file for each one instead of prints.
+Changing the base_ammeter.py to connect to the logger, so the Circutor_Ammeter.py, Entes_Ammeter.py, and Greenlee_Ammeter.py inherit the logger from it, and create log file for each one instead of prints.
 
 
 base_ammeter.py:
