@@ -47,9 +47,24 @@ def main(_ammeter=None, _num_of_samples=20):
         print(f"Summary for {ammeter}:")
         print(result)
 
-    # Save to json file
-    with open(RESULTS_JSON, "w") as f:
-        json.dump(all_results, f, indent=4)
+        # --- Load existing results if file exists ---
+        if RESULTS_JSON.exists():
+            with open(RESULTS_JSON, "r") as f:
+                try:
+                    existing_results = json.load(f)
+                except json.JSONDecodeError:
+                    existing_results = []
+        else:
+            existing_results = []
+
+        # --- Append new results ---
+        existing_results.extend(all_results)
+
+        # --- Save back to file ---
+        with open(RESULTS_JSON, "w") as f:
+            json.dump(existing_results, f, indent=4)
+
+        print(f"\nAll results appended to {RESULTS_JSON}")
 
     print(f"\nAll results saved to {RESULTS_JSON}")
 

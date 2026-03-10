@@ -1,0 +1,60 @@
+2026-03-10 19:03:39 | Sampling start for Entes
+19:03:39 | Measurement 1: 122.002465 A
+19:03:39 | Measurement 2: 32.240791 A
+19:03:39 | Measurement 3: 51.361566 A
+19:03:39 | Measurement 4: 150.952324 A
+19:03:39 | Measurement 5: 24.400532 A
+19:03:39 | Measurement 6: 41.003731 A
+19:03:39 | Measurement 7: 24.139197 A
+19:03:39 | Measurement 8: 107.317645 A
+19:03:39 | Measurement 9: 35.922084 A
+19:03:39 | Measurement 10: 28.882223 A
+19:03:39 | Measurement 11: 58.456467 A
+19:03:39 | Measurement 12: 93.184647 A
+19:03:40 | Measurement 13: 37.896387 A
+19:03:40 | Measurement 14: 21.728473 A
+19:03:40 | Measurement 15: 67.755959 A
+19:03:40 | Measurement 16: 131.231765 A
+19:03:40 | Measurement 17: 54.044540 A
+19:03:40 | Measurement 18: 154.223251 A
+19:03:40 | Measurement 19: 24.530444 A
+19:03:40 | Measurement 20: 20.963948 A
+19:03:40 | Measurement 21: 42.742548 A
+19:03:40 | Measurement 22: 20.450184 A
+19:03:40 | Measurement 23: 27.643229 A
+19:03:40 | Measurement 24: 56.180731 A
+19:03:40 | Measurement 25: 73.465596 A
+19:03:40 | Measurement 26: 139.890078 A
+19:03:40 | Measurement 27: 87.430898 A
+19:03:40 | Measurement 28: 29.732362 A
+19:03:41 | Measurement 29: 19.902962 A
+19:03:41 | Measurement 30: 81.979959 A
+19:03:41 | Measurement 31: 68.942838 A
+19:03:41 | Measurement 32: 35.196949 A
+19:03:41 | Measurement 33: 126.474276 A
+19:03:41 | Measurement 34: 16.201693 A
+19:03:41 | Measurement 35: 139.844185 A
+19:03:41 | Measurement 36: 111.738766 A
+19:03:41 | Measurement 37: 73.544693 A
+19:03:41 | Measurement 38: 11.081775 A
+19:03:41 | Measurement 39: 24.832510 A
+19:03:41 | Measurement 40: 70.453776 A
+19:03:41 | Measurement 41: 136.451786 A
+19:03:41 | Measurement 42: 119.908876 A
+19:03:41 | Measurement 43: 72.221515 A
+19:03:41 | Measurement 44: 66.909104 A
+19:03:42 | Measurement 45: 58.369205 A
+19:03:42 | Measurement 46: 37.923319 A
+19:03:42 | Measurement 47: 116.326372 A
+
+--- Sampling Summary ---
+total_measurements: 47
+requested_duration_s: 3
+sampling_frequency_hz: 15.667
+actual_runtime_s: 3.013
+mean_current_a: 66.980396
+median_current_a: 58.369205
+std_dev_current_a: 42.683515
+min_current_a: 11.081775
+max_current_a: 154.223251
+metadata: {'emulator': 'Entes', 'log_file': 'results\\entes\\20260310_190339_entes.log', 'start_time': '2026-03-10 19:03:39', 'end_time': '2026-03-10 19:03:42'}
