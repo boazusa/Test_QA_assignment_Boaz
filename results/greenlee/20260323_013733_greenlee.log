@@ -1,0 +1,62 @@
+2026-03-23 01:37:33 | Sampling start for Greenlee
+01:37:33 | Measurement 1: 0.095160 A
+01:37:33 | Measurement 2: 0.228759 A
+01:37:33 | Measurement 3: 0.071305 A
+01:37:33 | Measurement 4: 0.153418 A
+01:37:33 | Measurement 5: 0.050125 A
+01:37:33 | Measurement 6: 0.523702 A
+01:37:33 | Measurement 7: 1.592918 A
+01:37:33 | Measurement 8: 0.362883 A
+01:37:33 | Measurement 9: 0.192706 A
+01:37:33 | Measurement 10: 0.097998 A
+01:37:33 | Measurement 11: 0.231007 A
+01:37:33 | Measurement 12: 0.088599 A
+01:37:33 | Measurement 13: 0.069436 A
+01:37:33 | Measurement 14: 0.076769 A
+01:37:34 | Measurement 15: 1.394010 A
+01:37:34 | Measurement 16: 1.982119 A
+01:37:34 | Measurement 17: 1.181294 A
+01:37:34 | Measurement 18: 0.096362 A
+01:37:34 | Measurement 19: 0.040318 A
+01:37:34 | Measurement 20: 0.367425 A
+01:37:34 | Measurement 21: 0.050533 A
+01:37:34 | Measurement 22: 0.401806 A
+01:37:34 | Measurement 23: 0.042954 A
+01:37:34 | Measurement 24: 0.095334 A
+01:37:34 | Measurement 25: 2.829391 A
+01:37:34 | Measurement 26: 0.378257 A
+01:37:34 | Measurement 27: 0.203011 A
+01:37:34 | Measurement 28: 0.049287 A
+01:37:34 | Measurement 29: 0.219833 A
+01:37:34 | Measurement 30: 0.035451 A
+01:37:35 | Measurement 31: 0.105524 A
+01:37:35 | Measurement 32: 0.031744 A
+01:37:35 | Measurement 33: 0.073118 A
+01:37:35 | Measurement 34: 0.114794 A
+01:37:35 | Measurement 35: 0.293643 A
+01:37:35 | Measurement 36: 0.372532 A
+01:37:35 | Measurement 37: 0.052330 A
+01:37:35 | Measurement 38: 0.108963 A
+01:37:35 | Measurement 39: 0.149300 A
+01:37:35 | Measurement 40: 0.335561 A
+01:37:35 | Measurement 41: 0.045559 A
+01:37:35 | Measurement 42: 0.099623 A
+01:37:35 | Measurement 43: 0.045745 A
+01:37:35 | Measurement 44: 0.121047 A
+01:37:35 | Measurement 45: 0.090730 A
+01:37:35 | Measurement 46: 0.104131 A
+01:37:36 | Measurement 47: 1.926731 A
+01:37:36 | Measurement 48: 0.215300 A
+01:37:36 | Measurement 49: 0.039816 A
+
+--- Sampling Summary ---
+total_measurements: 49
+requested_duration_s: 3
+sampling_frequency_hz: 16.333
+actual_runtime_s: 3.002
+mean_current_a: 0.357722
+median_current_a: 0.108963
+std_dev_current_a: 0.59385
+min_current_a: 0.031744
+max_current_a: 2.829391
+metadata: {'emulator': 'Greenlee', 'log_file': 'results\\greenlee\\20260323_013733_greenlee.log', 'start_time': '2026-03-23 01:37:33', 'end_time': '2026-03-23 01:37:36'}

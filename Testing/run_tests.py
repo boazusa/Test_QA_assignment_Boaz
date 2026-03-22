@@ -1,4 +1,9 @@
 # run_tests_with_emulators.py
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 from src.testing.test_framework import AmmeterTestFramework
 from Ammeters.Greenlee_Ammeter import GreenleeAmmeter
 from Ammeters.Entes_Ammeter import EntesAmmeter
@@ -12,7 +17,7 @@ RESULTS_JSON = Path("results/all_runs.json")
 RESULTS_JSON.parent.mkdir(exist_ok=True)
 
 
-def main(_ammeter=None, _num_of_samples=20):
+def main(_ammeter=None, _num_of_samples=40):
     # Creation of ammeter objects:
     greenlee = GreenleeAmmeter(5000)
     entes = EntesAmmeter(5001)

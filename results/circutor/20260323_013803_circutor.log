@@ -1,0 +1,72 @@
+2026-03-23 01:38:03 | Sampling start for Circutor
+01:38:03 | Measurement 1: 0.030079 A
+01:38:04 | Measurement 2: 0.052231 A
+01:38:04 | Measurement 3: 0.052900 A
+01:38:04 | Measurement 4: 0.013130 A
+01:38:04 | Measurement 5: 0.031181 A
+01:38:04 | Measurement 6: 0.031147 A
+01:38:04 | Measurement 7: 0.060296 A
+01:38:04 | Measurement 8: 0.041889 A
+01:38:04 | Measurement 9: 0.009867 A
+01:38:04 | Measurement 10: 0.008320 A
+01:38:04 | Measurement 11: 0.018030 A
+01:38:04 | Measurement 12: 0.019568 A
+01:38:04 | Measurement 13: 0.031566 A
+01:38:04 | Measurement 14: 0.018349 A
+01:38:04 | Measurement 15: 0.020852 A
+01:38:04 | Measurement 16: 0.014424 A
+01:38:04 | Measurement 17: 0.057426 A
+01:38:04 | Measurement 18: 0.032462 A
+01:38:04 | Measurement 19: 0.024999 A
+01:38:04 | Measurement 20: 0.023844 A
+01:38:05 | Measurement 21: 0.045232 A
+01:38:05 | Measurement 22: 0.006736 A
+01:38:05 | Measurement 23: 0.044217 A
+01:38:05 | Measurement 24: 0.057909 A
+01:38:05 | Measurement 25: 0.033728 A
+01:38:05 | Measurement 26: 0.019939 A
+01:38:05 | Measurement 27: 0.031899 A
+01:38:05 | Measurement 28: 0.042452 A
+01:38:05 | Measurement 29: 0.029441 A
+01:38:05 | Measurement 30: 0.010978 A
+01:38:05 | Measurement 31: 0.044251 A
+01:38:05 | Measurement 32: 0.013132 A
+01:38:05 | Measurement 33: 0.021840 A
+01:38:05 | Measurement 34: 0.030885 A
+01:38:05 | Measurement 35: 0.030657 A
+01:38:05 | Measurement 36: 0.044034 A
+01:38:05 | Measurement 37: 0.020894 A
+01:38:05 | Measurement 38: 0.052427 A
+01:38:05 | Measurement 39: 0.048454 A
+01:38:05 | Measurement 40: 0.045777 A
+01:38:06 | Measurement 41: 0.025025 A
+01:38:06 | Measurement 42: 0.038044 A
+01:38:06 | Measurement 43: 0.023914 A
+01:38:06 | Measurement 44: 0.007366 A
+01:38:06 | Measurement 45: 0.062203 A
+01:38:06 | Measurement 46: 0.050331 A
+01:38:06 | Measurement 47: 0.041787 A
+01:38:06 | Measurement 48: 0.019840 A
+01:38:06 | Measurement 49: 0.030833 A
+01:38:06 | Measurement 50: 0.007800 A
+01:38:06 | Measurement 51: 0.029747 A
+01:38:06 | Measurement 52: 0.029798 A
+01:38:06 | Measurement 53: 0.012107 A
+01:38:06 | Measurement 54: 0.013124 A
+01:38:06 | Measurement 55: 0.008295 A
+01:38:06 | Measurement 56: 0.029447 A
+01:38:06 | Measurement 57: 0.037419 A
+01:38:06 | Measurement 58: 0.048777 A
+01:38:06 | Measurement 59: 0.024887 A
+
+--- Sampling Summary ---
+total_measurements: 59
+requested_duration_s: 3
+sampling_frequency_hz: 19.667
+actual_runtime_s: 3.002
+mean_current_a: 0.030647
+median_current_a: 0.030079
+std_dev_current_a: 0.015204
+min_current_a: 0.006736
+max_current_a: 0.062203
+metadata: {'emulator': 'Circutor', 'log_file': 'results\\circutor\\20260323_013803_circutor.log', 'start_time': '2026-03-23 01:38:03', 'end_time': '2026-03-23 01:38:06'}

@@ -1,0 +1,42 @@
+00:50:04 | INFO | base_ammeter.py:31 | EntesAmmeter is running on port 5001
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56600)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.09357944387649515T, Calibration Factor: 535.7667270684374, Current: 50.13675236659433A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56601)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.06495892788693015T, Calibration Factor: 1970.0923877642945, Current: 127.97508934737084A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56602)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.08301546157752462T, Calibration Factor: 1802.5889207319435, Current: 149.64275128909424A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56603)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.03490560688659515T, Calibration Factor: 524.5461010829464, Current: 18.30959999829753A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56604)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.03568036557184518T, Calibration Factor: 1123.6031958238705, Current: 40.09057278468924A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56605)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.09347590711557134T, Calibration Factor: 1708.9553591232213, Current: 159.7461524140601A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56606)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.09529228224838292T, Calibration Factor: 1925.0057463412165, Current: 183.43819091010621A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56607)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.08218807352843968T, Calibration Factor: 1850.002706765396, Current: 152.0481584914468A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56608)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.0856833418454369T, Calibration Factor: 1250.9830084484447, Current: 107.18840475572117A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56609)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.0543780636568256T, Calibration Factor: 1109.1156172131048, Current: 60.311559635593625A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56610)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.05360061368159181T, Calibration Factor: 1665.6593319001336, Current: 89.28036237431738A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56611)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.09913182989137788T, Calibration Factor: 1504.0005658090968, Current: 149.09432824632347A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56612)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.03598856609199137T, Calibration Factor: 1501.7447152429068, Current: 54.04563893781811A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56613)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.039961908256157454T, Calibration Factor: 1827.288374783823, Current: 73.02193039065419A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56614)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.09431423350849372T, Calibration Factor: 1797.655611740406, Current: 169.54451113353875A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56615)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.09434309555612294T, Calibration Factor: 1200.992371369413, Current: 113.30533805427922A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56616)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.026071163449513567T, Calibration Factor: 682.5904706358406, Current: 17.79592772902739A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56617)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.03905179249470886T, Calibration Factor: 791.484596699373, Current: 30.908892233062243A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56618)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.08359877733585938T, Calibration Factor: 528.0317337288562, Current: 44.14280733426644A
+00:50:07 | INFO | base_ammeter.py:39 | Connected by ('127.0.0.1', 56619)
+00:50:07 | INFO | Entes_Ammeter.py:16 | ENTES Ammeter - Magnetic Field: 0.03883585951989699T, Calibration Factor: 903.9538300403001, Current: 35.105823955917934A
+00:50:07 | INFO | base_ammeter.py:49 | Stopping EntesAmmeter server on port 5001
