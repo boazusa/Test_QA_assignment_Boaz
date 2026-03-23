@@ -106,12 +106,12 @@ python main.py
   - min / max / median / mean / standard deviation **values**.
 - start_time / end_time 
 
-###main.py:
+### main.py:
 - Set each emulator thread in thread parameter, start the threads, and wait until they finish (join) after sample measurements are done.
 modified the run_*_emulator functions to start servers in threads so they can be stopped 
 and the threads can be finished before the end of execution (and not hang forever and hold the application up)
 
-###client.py:
+### client.py:
 - Created 'get_current_from_ammeter' function which is based on the original 'request_current_from_ammeter' but returns the current value, so it can be used in sampling and results analysis.
 
 1) Each time the sampling function, sample_measurements, runs, it returns (to corresponding log) the:
@@ -128,19 +128,19 @@ and the threads can be finished before the end of execution (and not hang foreve
 	* Maximum current
 3) added to the sample_measurements function all_runs.json generation with measurements [info] metadata.
 
-###Flask_ammeter_filter.py:
+### Flask_ammeter_filter.py:
 
 - Added Flask GUI to filter by each ammeter or by all of them (if no ammeter is selected).
 
-###plot_ammeter_results.py:
+### plot_ammeter_results.py:
 
 - Added function that plots, using the matplotlib library, the distribution, measurements over time, and spread of each ammeter. See plots in Accuracy_Assesment_plots.docx.
 
-###config.yaml:
+### config.yaml:
 
 - Implemented the config.yaml file, and added the plot types (as shown in 'plot_ammeter_results.py').
 
-###run_tests.py:
+### run_tests.py:
 - full implementation using test_framework.py, config.yaml, ammeters [that are based, inherit from] the base_ammeter 
 
 
