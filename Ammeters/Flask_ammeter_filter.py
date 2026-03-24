@@ -113,7 +113,17 @@ TEMPLATE = """
         </div>
     </div>
     {% elif comparison %}
-    <p class="text-muted">No overall summary available for selected filters.</p>
+    <div class="card">
+        <div class="card-header">
+            <strong>Filter Summary</strong>
+        </div>
+        <div class="card-body">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Emulator:</strong> {{ emulator_selected if emulator_selected else "All" }}</li>
+                <li class="list-group-item"><strong>Number of Runs:</strong> {{ comparison|length }}</li>
+            </ul>
+        </div>
+    </div>
     {% endif %}
 </div>
 </body>
@@ -139,8 +149,15 @@ def index():
         end_time = datetime.strptime(end_str, "%Y-%m-%dT%H:%M") if end_str else None
         filtered_runs = filter_runs(all_runs, emulator=emulator, start_time=start_time, end_time=end_time)
         comparison, overall_summary = compare_statistics(filtered_runs)
+        
+        # Add number of measurements and emulator name to overall_summary
+        if overall_summary:
+            total_measurements = sum(run.get("total_measurements", 0) for run in filtered_runs)
+            overall_summary["total_measurements"] = total_measurements
+            overall_summary["emulator_name"] = emulator if emulator else "All"
 
-    return render_template_string(TEMPLATE, comparison=comparison, overall_summary=overall_summary)
+    return render_template_string(TEMPLATE, comparison=comparison, overall_summary=overall_summary, 
+                                 emulator_selected=emulator if request.method == "POST" else None)
 
 
 if __name__ == "__main__":
