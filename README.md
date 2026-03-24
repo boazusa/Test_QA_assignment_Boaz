@@ -4,146 +4,190 @@ This project provides emulators for different types of ammeters: Greenlee, ENTES
 
 ## Project Structure
 
-- `Ammeters/`
-  - `main.py`: Main script to start the ammeter emulators and request current measurements.
-  - `Circutor_Ammeter.py`: Emulator for the CIRCUTOR ammeter.
-  - `Entes_Ammeter.py`: Emulator for the ENTES ammeter.
-  - `Greenlee_Ammeter.py`: Emulator for the Greenlee ammeter.
-  - `base_ammeter.py`: Base class for all ammeter emulators.
-  - `client.py`: Client to request current measurements from the ammeter emulators.
-- `config/`
-  - `config.yaml`: Configuration file for the ammeter emulators.
-- `examples/`
-  - `run_test.py`: super lyze example for run test **don't use it**.
-- `src/`
-  - `testing/`
-    - `AmmeterTester.py`: Class to test the ammeter emulators.
-  - `utils/`
-    - `config.py`: Configuration settings.
-    - `logger.py`: Logging setup.
-    - `Utils.py`: Utility functions, including `generate_random_float`.
+```
+Test_QA_expanded/
+├── Ammeters/                    # Core ammeter implementations
+│   ├── base_ammeter.py         # Abstract base class for all ammeters
+│   ├── Circutor_Ammeter.py     # CIRCUTOR ammeter emulator
+│   ├── Entes_Ammeter.py        # ENTES ammeter emulator
+│   ├── Greenlee_Ammeter.py     # Greenlee ammeter emulator
+│   ├── client.py               # Client for requesting measurements
+│   ├── Flask_ammeter_filter.py # Flask web interface for filtering results
+│   ├── plot_ammeter_results.py # Plotting functions for measurement analysis
+│   └── test_ammeter.py         # Pytest test suite
+├── src/                        # Shared utilities and testing framework
+│   ├── testing/
+│   │   └── test_framework.py   # Testing framework for ammeters
+│   └── utils/
+│       ├── config.py           # Configuration utilities
+│       ├── logger.py           # Logging setup
+│       └── Utils.py            # Utility functions (generate_random_float)
+├── examples/                   # Example usage scripts
+│   └── run_tests.py           # Example script for running tests
+├── Testing/                    # Alternative testing directory
+│   └── run_tests.py           # Another test runner implementation
+├── config/                     # Configuration files
+│   └── config.yaml            # Configuration settings
+├── results/                    # Measurement results and logs
+│   ├── all_runs.json          # Metadata for all measurement runs
+│   ├── circutor/              # CIRCUTOR measurement logs
+│   ├── entes/                 # ENTES measurement logs
+│   ├── greenlee/              # Greenlee measurement logs
+│   └── logs/                  # Full application logs
+├── main.py                    # Main application entry point
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
+```
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-# Ammeter Emulators
+### Quick Start
 
-## Greenlee Ammeter
+Run the main application to start all ammeter emulators and perform measurements:
 
-- **Port**: 5000
-- **Command**: `MEASURE_GREENLEE -get_measurement`
-- **Measurement Logic**: Calculates current using voltage (1V - 10V) and (0.1Ω - 100Ω).
-- **Measurement method** : Ohm's Law: I = V / R
-
-## ENTES Ammeter
-
-- **Port**: 5001
-- **Command**: `MEASURE_ENTES -get_data`
-- **Measurement Logic**: Calculates current using magnetic field strength (0.01T - 0.1T) and calibration factor (500 - 2000).
-- **Measurement method** : Hall Effect: I = B * K
-
-## CIRCUTOR Ammeter
-
-- **Port**: 5002
-- **Command**: `MEASURE_CIRCUTOR -get_measurement`
-- **Measurement Logic**: Calculates current using voltage values (0.1V - 1.0V) over a number of samples and a random time step (0.001s - 0.01s).
-- **Measurement method** : Rogowski Coil Integration: I = ∫V dt
-
-To start the ammeter emulators and request current measurements, run the `main.py` script:
 ```sh
 python main.py
 ```
 
-## Bug Fix:
+### Ammeter Specifications
 
-###main.py:
+#### Greenlee Ammeter
+- **Port**: 5000
+- **Command**: `MEASURE_GREENLEE -get_measurement`
+- **Measurement Logic**: Ohm's Law: I = V / R
+  - Voltage: 1V - 10V (random)
+  - Resistance: 0.1Ω - 100Ω (random)
 
-- **GreenleeAmmeter:** port is 5000 (and not 5001), and command is b'MEASURE_GREENLEE -get_measurement'
-- **EntesAmmeter:** port is 5001 (and not 5001), and command is b'MEASURE_ENTES -get_data'
-- **CircutorAmmeter:** port is 5002 (and not 5003), and command is b'MEASURE_CIRCUTOR -get_measurement'
+#### ENTES Ammeter
+- **Port**: 5001
+- **Command**: `MEASURE_ENTES -get_data`
+- **Measurement Logic**: Hall Effect: I = B * K
+  - Magnetic Field: 0.01T - 0.1T (random)
+  - Calibration Factor: 500 - 2000 (random)
 
-  
-###Circutor_Ammeter.py:
+#### CIRCUTOR Ammeter
+- **Port**: 5002
+- **Command**: `MEASURE_CIRCUTOR -get_measurement`
+- **Measurement Logic**: Rogowski Coil Integration: I = ∫V dt
+  - Voltage Samples: 10 samples, 0.1V - 1.0V each
+  - Time Step: 0.001s - 0.01s (random)
 
-- return b'MEASURE_CIRCUTOR -get_measurement -current' is incorrect, it shall return b'MEASURE_CIRCUTOR -get_measurement'
+### Testing
 
-###base_ammeter.py:
+#### Unit Tests
+Run the comprehensive test suite:
+```sh
+pytest Ammeters/test_ammeter.py -v
+```
 
-- random.seed(time.time()) can be removed as it does not affect code and the random seeds are being generated from src.utils.Utils.
-- Added port_loggers to AmmeterEmulatorBase class so sample_measurements and analyze_and_log_results from client.py will be logged to corresponding log file (Greenlee, Entes, or Circutor logfiles).
+#### Test Framework Examples
+Run the test framework examples:
+```sh
+python examples/run_tests.py
+```
 
-###run_tests.py:
+### Web Interface
 
-- changed results[ammeter_type] = framework.run_test() to results[ammeter_type] = framework.run_test(ammeter_type), so it run test for specific ammeter [otherwise, it has no ammeter selected and fails to run test].
+Start the Flask web interface for filtering and viewing results:
+```sh
+python Ammeters/Flask_ammeter_filter.py
+```
+Access at `http://localhost:5000`
 
-## Additions:
+### Plotting Results
 
-### test_ammeter.py
-- Added unittests forr 
-* Install pytest for running unit tests using pytest
+Generate plots for measurement analysis:
+```sh
+python Ammeters/plot_ammeter_results.py
+```
 
-###Improvements (across multiple files):
+## Key Features
 
-- Replacing prints by logging to file in all files:
-- Changing the base_ammeter.py to connect to the logger, so the Circutor_Ammeter.py, Entes_Ammeter.py, and Greenlee_Ammeter.py
-  inherit the logger from it, and create log files for each one instead of prints.
-    - full log files are \results\logs, where each line includes date, time, which file logged and the line logged. 
-    
-### all_runs.json (1)
-- all_runs.json contains metadata of all measurements runs (as mentioned in the sample_measurements, in client.py) and paths to measurement logs in **/results**, 
-  and into each ammeter's directory in the results.
-  * /results/
-    * /circutor
-    * /entes
-    * /greenlee
-    * /logs (contain full logges, INFO and DEBUG)
-    * all_runs.json
+### Measurement Sampling
+- **sample_measurements()**: Collects multiple measurements with statistical analysis
+- **Statistics**: Mean, median, standard deviation, min/max values
+- **Metadata**: Timestamps, sampling frequency, duration
+- **Logging**: Detailed logs stored in `results/logs/`
 
-### all_runs.json (2), for TestingFrameworks (under Testing dir)
-- Implemented another type of all runs, which includes:
-  - emulator type
-  - total_measurements  
-  - all raw measurements
-  - min / max / median / mean / standard deviation **values**.
-- start_time / end_time 
+### Data Storage
+- **all_runs.json**: Central metadata repository for all measurement runs
+- **Individual Logs**: Per-ammeter measurement logs in `results/{ammeter}/`
+- **Comprehensive Logging**: Full application logs with timestamps
 
-### main.py:
-- Set each emulator thread in thread parameter, start the threads, and wait until they finish (join) after sample measurements are done.
-modified the run_*_emulator functions to start servers in threads so they can be stopped 
-and the threads can be finished before the end of execution (and not hang forever and hold the application up)
+### Filtering and Analysis
+- **filter_runs()**: Filter measurements by ammeter type and time range
+- **compare_statistics()**: Compare statistics across multiple runs
+- **Web Interface**: Interactive filtering via Flask web app
 
-### client.py:
-- Created 'get_current_from_ammeter' function which is based on the original 'request_current_from_ammeter' but returns the current value, so it can be used in sampling and results analysis.
+## Development
 
-1) Each time the sampling function, sample_measurements, runs, it returns (to corresponding log) the:
-	* number of measurements
-	* Total duration [seconds]
-	* Sampling frequency [Hz]; samples / duration
-	* Actual runtime [seconds]
-2) added to the sample_measurements function:
-	* Measurements count
-	* Mean (average) current
-	* Median current
-	* Standard deviation
-	* Minimum current
-	* Maximum current
-3) added to the sample_measurements function all_runs.json generation with measurements [info] metadata.
+### Architecture
+- **Base Class**: `AmmeterEmulatorBase` provides common functionality
+- **Inheritance**: All ammeters inherit from the base class
+- **Threading**: Each ammeter runs in its own thread
+- **Socket Communication**: TCP socket-based measurement requests
 
-### Flask_ammeter_filter.py:
+### Configuration
+- **config.yaml**: Central configuration file
+- **Port Assignment**: Each ammeter uses a unique port
+- **Logging Levels**: Configurable logging verbosity
 
-- Added Flask GUI to filter by each ammeter or by all of them (if no ammeter is selected).
+### Error Handling
+- **Graceful Shutdown**: Servers can be stopped cleanly
+- **Timeout Handling**: Socket operations include timeouts
+- **Comprehensive Logging**: All operations are logged for debugging
 
-### plot_ammeter_results.py:
+## Dependencies
 
-- Added function that plots, using the matplotlib library, the distribution, measurements over time, and spread of each ammeter. See plots in Accuracy_Assesment_plots.docx.
+- **numpy**: Numerical computations
+- **scipy**: Scientific computing
+- **matplotlib**: Plotting and visualization
+- **seaborn**: Statistical data visualization
+- **pandas**: Data manipulation
+- **flask**: Web interface
+- **pytest**: Testing framework
+- **PyYAML**: Configuration file parsing
+- **pyyaml**: YAML support (alternative package name)
 
-### config.yaml:
+## Troubleshooting
 
-- Implemented the config.yaml file, and added the plot types (as shown in 'plot_ammeter_results.py').
+### Common Issues
 
-### run_tests.py:
-- full implementation using test_framework.py, config.yaml, ammeters [that are based, inherit from] the base_ammeter 
+1. **ModuleNotFoundError**: Ensure you're running from the project root directory
+2. **Port Already in Use**: Check that ports 5000-5002 are not occupied
+3. **Missing Dependencies**: Run `pip install -r requirements.txt`
 
+### Running from Different Directories
 
+If running from subdirectories, ensure the project root is in your Python path:
+```python
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+```
 
+### Logging
 
-"# Test_QA_assignment_Boaz" 
+Logs are stored in multiple locations:
+- **Application Logs**: `results/logs/`
+- **Ammeter-specific Logs**: `results/{ammeter}/`
+- **Test Logs**: Pytest output and test-specific logs
+
+## Contributing
+
+1. Follow the existing code structure
+2. Add tests for new features
+3. Update documentation
+4. Ensure all tests pass before submitting
+
+## License
+
+This project is for educational and testing purposes. 
