@@ -89,9 +89,9 @@ pytest Ammeters/test_ammeter.py -v
 ```
 
 #### Test Framework Examples
-Run the test framework examples:
+Run the test framework Testing (also in examples):
 ```sh
-python examples/run_tests.py
+python Testing/run_tests.py
 ```
 
 ### Web Interface
